@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" version="3.6.0" client="site" method="upgrade">
+    <name>MOD_WEATHER_XML_NAME</name>
+    <author>Alex Niemtsov</author>
+	<creationDate>18.02.2017</creationDate>
+    <version>1.0.0</version>
+    <description>MOD_WEATHER_XML_DESC</description>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_weather.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_weather.ini</language>
+	</languages>
+    <files>
+        <filename>mod_weather.xml</filename>
+        <filename module="mod_weather">mod_weather.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>

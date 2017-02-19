@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.6.0" method="upgrade">
+	<name>KIEV_PACKAGE_TITLE</name>
+	<packagename>kiev</packagename>
+	<version>1.0.0</version>
+	<creationDate>18.02.2017</creationDate>
+	<author>Alex Niemtsov</author>
+	<copyright>Copyright (C)2017. All rights reserved.</copyright>
+	<authorEmail>alniemtsov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<packager>Alex Niemtsov</packager>
+	<packagerurl></packagerurl>
+	<description>KIEV_PACKAGE_DESC</description>
+	<update></update>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.pkg_kiev.sys.ini</language>
+	</languages>
+	<files>
+		<file type="plugin" id="kiev">kiev</file>
+		<file type="module" id="mod_weather" client="site">mod_weather</file>
+	</files>
+</extension>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6.0" type="plugin" group="Test" method="upgrade">
+	<name>PLG_KIEV_XML_LABEL</name>
+	<author>Alex Niemtsov</author>
+	<creationDate>18.02.2017</creationDate>
+	<copyright>Copyright (C)2017. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>alniemtsov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_KIEV_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="Kiev">Kiev.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_Test_Kiev.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="weather_api_key" type="text"
+					default="5d7b4a28086bdf57"
+					description="JFIELD_PLG_KIEV_WEATHERKEY_DESC"
+					label="JFIELD_PLG_KIEV_WEATHERKEY_LABEL"
+					size="5"
+				/>
+			</fieldset>
+ 		</fields>
+	</config>
+</extension>
