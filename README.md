@@ -1,6 +1,8 @@
 # KievInfo
 Plugin: weather and exchange rates.
 
+Developed for php 7
+
 "Kiev" folder: basic plugin to work with the API. Setting via: Extensions - Plugins - Kiev information plugin
 "mod_weather": module to display content from a plug.
 
